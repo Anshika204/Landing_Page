@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        *
+        {
+            padding: 0px;
+            margin: 0px;
+        }
+        body
+        {
+            overflow-x: hidden;
+        }
+        h1
+        {
+            top: 20px;
+        }
+        header
+        {
+            background-image: url("walpaper.jpg");
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        img
+        {
+            object-fit: cover;
+            width: 100vw;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+        h1
+        {
+            color: rgba(255, 255, 255, 0.781);
+            text-align: center;
+            justify-content: center;
+            position: relative;
+        }
+        ul
+        {
+            list-style: none;
+            position: relative;
+            left: 600px;
+            color: rgba(240, 248, 255, 0.832);
+            display: flex;
+            font-size: larger;
+            top: 20px;
+        }
+        li
+        {
+            margin: 7px 16px;
+            padding: 8px 0px;
+            font-weight: 780;
+        }
+        ul li a
+        {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            position: relative;
+            display: block;
+            padding: 8px;
+        }
+        ul li a:hover
+        {
+            background-color: rgb(145, 199, 243);
+            color: rgb(19, 85, 240);
+        }
+        button
+        {
+            display: flex;
+            justify-content: center;
+            float: right;
+            padding: 8px;
+            margin-right: 50px;
+            background-color: rgb(115, 161, 248);
+            border: 1px solid black;
+        }
+        button .register:hover
+        {
+            opacity: 1;
+            color: black;
+        }
+        .register
+        {
+            text-decoration: none;
+            color: #fff;
+        }
+        .center
+        {
+            position: absolute;
+            top: 58%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+        }
+
+        .center a
+        {
+            margin: 10px;
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            border: 1px solid white;
+            padding: 8px;
+        }
+        .center a:hover
+        {
+            background-color: #fff;
+            color: black;
+        }
+        h3
+        {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: rgb(255, 255, 255);
+            font-size: xx-large;
+        }
+        #contact
+        {
+            background-color: #262626;
+            color: #fff;
+            padding: 0px;
+            margin: 0px;
+        }
+        .contact-left
+        {
+            margin-left: 70px;
+            flex-basis: 35%;
+        }
+        .contact-right
+        {
+            flex-basis: 60%;
+        }
+        .margin
+        {
+            margin-top: 17px;
+        }
+        .contact-left p i
+        {
+            color: #71d3ed;
+            margin-right: 15px;
+            font-size: 25px;
+        }
+        .social-icons
+        {
+            margin-left: 700px;
+            margin-top: 10px;
+        }
+        .social-icons a
+        {
+          /*  margin-top: 25px;*/
+            text-decoration: none;
+            font-size: 30px;
+            margin-right: 15px;
+            color: #ababab;
+            display: inline-block;
+            transition: transform 0.5s;
+        }
+        .social-icons a:hover
+        {
+            color: #71d3ed;
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="main"><div>
+            <h1>~Sea Buzz~</h1>
+            <button><a class="register" href="#">Register</a> </button></div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Images</a></li>
+            </ul>
+        </div>
+    </header>
+    <h3>Enjoy your Trip!</h3>
+    <div class="center">
+        <a href="#">Book now</a>
+        <a href="#">Check price</a>
+    </div>
+    <!---contact-->
+    <div id="contact">
+        <div class="container">
+            <spam class="row">
+                <div class="contact-left">
+                    <p><i class="fas fa-paper-plane"></i>anshikagupta0420@gmail.com</p>
+                    <p class="margin"><i class="fas fa-phone-square-alt"></i>+91 9359146742</p>
+                    <p class="margin"><i class="fa-solid fa-location-dot"></i>Maldives</p>
+                </div>
+                    <div class="social-icons margin">
+                        <a href=""><i class="fab fa-instagram-square"></i></a>
+                        <a href=""><i class="fab fa-facebook-square"></i></a>
+                        <a href=""><i class="fab fa-twitter-square"></i></a>
+                    </div>
+            </spam>
+        </div>
+    </div>
+        <script src="https://kit.fontawesome.com/0e9c2cf98c.js" crossorigin="anonymous"></script>
+</body>
+</html>
